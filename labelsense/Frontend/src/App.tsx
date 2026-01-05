@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "labelsense-ai-production.up.railway.app";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://labelsense-ai-production.up.railway.app";
 
 interface AnalysisResult {
   summary: string[];
